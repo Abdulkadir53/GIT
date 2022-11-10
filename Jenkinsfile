@@ -5,8 +5,8 @@ pipeline{
 			}
 		}
 			stages{
-				stage{
-					steps('git-branch'){
+				stage('git-branch'){
+					steps{
 						echo "This is my master branch"
 					}
 				}
